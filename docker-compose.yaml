@@ -1,0 +1,6 @@
+services:
+  build:
+    image: anonymaew/keycorne-builder
+    volumes:
+      - ./zmk/config:/zmk/app/config
+      - ./output:/output
